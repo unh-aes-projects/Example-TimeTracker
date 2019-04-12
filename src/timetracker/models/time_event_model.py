@@ -9,3 +9,10 @@ class TimeEvent(models.Model):
         'Project',
         on_delete=models.CASCADE,
         null=True)
+
+    def __str__(self):
+        return "{} ({}):({})".format(
+            self.project,
+            self.start_datetime,
+            self.end_datetime
+        )
