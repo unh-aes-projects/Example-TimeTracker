@@ -11,6 +11,7 @@ pip install -r docs/requirements.txt
 cd src/
 python manage.py migrate
 python manage.py createsuperuser
+python manage.py test
 python manage.py runserver
 ```
 4. With the local development server running, open a browser and go to "127.0.0.1:8000" or "localhost:8000".
