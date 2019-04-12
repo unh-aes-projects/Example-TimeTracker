@@ -1,3 +1,6 @@
 from django.contrib import admin
 
-# Register your models here.
+from .models import TimeEvent, Project
+
+admin.site.register(TimeEvent)
+admin.site.register(Project)
