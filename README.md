@@ -2,7 +2,10 @@
 
 ## Local Development Steps
 1. Clone repo to a local directory
-2. Install dev requirements: $ pip install -r docs/requirements.txt
+2. Install dev requirements:
+```bash
+pip install -r docs/requirements.txt 
+```
 3. Run the following commands
 ```bash
 cd src/
